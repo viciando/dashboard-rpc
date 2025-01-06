@@ -13,7 +13,7 @@ st.set_page_config(
 def carregar_dados(caminho):
     return pd.read_excel(caminho)
 
-df = carregar_dados("dados.xlsx")
+df = carregar_dados("app.xlsx")
 
 # Título da Dashboard
 st.title("Dashboard Interativa de Análise de Dados")
